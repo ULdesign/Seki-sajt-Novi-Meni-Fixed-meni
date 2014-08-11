@@ -1,0 +1,4 @@
+1) link na logo
+2) srediti meni kad se smanji prozorcic
+3) Srediti footer kolonu koju sam menjao 
+4) na ostalim stranicama: logo div ide van wrapera 

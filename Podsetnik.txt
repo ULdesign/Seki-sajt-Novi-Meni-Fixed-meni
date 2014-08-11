@@ -1,0 +1,3 @@
+-Footer izrisati tviter linkove i promeniti recent posts
+-Is selected za o nama i zastupnistva
+-button resetuj za Kontakt formu

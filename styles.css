@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  position: fixed;
+  background-image: url(images/menuBg.jpg);
+  margin-top: 0px;
+  height: 55px;
+    width: 100%;
+    
+   
+    z-index: 99999;
+}
+#cssmenu ul {
+
+  list-style: none;
+  margin-top: 8px;
+  -moz-margin-top:5px;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#cssmenu ul:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+   
+  /*background: url(images/menuLi.png) center no-repeat;*/
+  margin-right: 14px;
+  float: left;
+  display: block;
+  padding: 0;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #df951c;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+/*#cssmenu ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #df951c;
+  opacity: .5;
+}*/
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #df951c;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #df951c;
+
+  
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+/*@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    height: 1px;
+    background: #ffffff;
+    width: 100%;
+    opacity: .2;
+  }
+  #cssmenu ul li.last > a:before,
+  #cssmenu ul li:last-child > a:before {
+    display: none;
+  }
+}*/
+@media screen and (max-width: 960px){
+  #cssmenu {
+    position: relative;
+     margin-top: 0px;
+  height: 55px;
+    width: 100%;
+  }
+  #menuWrap{
+  padding-left: 250px;
+}
+
+}

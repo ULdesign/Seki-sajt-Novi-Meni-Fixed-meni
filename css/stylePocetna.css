@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px; 
+	background-image: url(../images/header2.png),  -webkit-linear-gradient(bottom, #d4d4d4, #fff);
+	background-image: url(../images/header2.png), -moz-linear-gradient(bottom, #d4d4d4, #fff);
+	background-image: url(../images/header2.png), -o-linear-gradient(bottom, #d4d4d4, #fff);
+	background-image: url(../images/header2.png),linear-gradient(to top, #d4d4d4, #fff);*/
+	background-position: top;
+	background-repeat: repeat-x
+}
